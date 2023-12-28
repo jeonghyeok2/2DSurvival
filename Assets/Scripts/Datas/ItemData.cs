@@ -14,4 +14,5 @@ public class ItemData : ScriptableObject
     public ItemType Type;
     public string Name;
     public Sprite WeponImage;
+    public Sprite WeponSlotImage;
 }

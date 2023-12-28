@@ -20,7 +20,7 @@ public class CharacterStatsHandler : MonoBehaviour
         StatusData status = null;
         if (_characterStats.status != null)
         {
-            status = Instantiate(_characterStats.status); //Data¸¦
+            status = Instantiate(_characterStats.status);
         }
 
         currentStates = new CharacterStats { status = status };

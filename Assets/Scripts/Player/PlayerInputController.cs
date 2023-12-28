@@ -23,11 +23,15 @@ public class PlayerInputController : TopDownCharacterController
         Vector2 mousePosition = mouseValue.Get<Vector2>();
         Vector2 worldMousePosition = _camera.ScreenToWorldPoint(mousePosition);
         mousePosition = (worldMousePosition - (Vector2)transform.position).normalized;
-        Debug.Log(mouseValue.Get<Vector2>().normalized);
         CallLookEvent(mousePosition);
     }
     public void OnAttack(InputValue value)
     {
         IsAttacking = value.isPressed;
+    }
+    public void OnSlotSelect(InputValue Value)
+    {
+        float inputValue = Value.Get<float>();
+        CallSlotEvent(inputValue);
     }
 }

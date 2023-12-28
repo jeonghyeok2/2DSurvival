@@ -15,3 +15,4 @@ MonoBehaviour:
   Type: 0
   Name: Sword
   WeponImage: {fileID: 21300000, guid: ae9cb2950fa24cb8a4b8fb439b8e5aac, type: 3}
+  WeponSlotImage: {fileID: 21300000, guid: a4276041fdda44f8b040a75064c4066d, type: 3}

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DropItem : MonoBehaviour
@@ -8,6 +9,11 @@ public class DropItem : MonoBehaviour
     private ItemData _itemData;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        collision.gameObject.GetComponent<PlayerChangeWepon>().ChangeWepon(_itemData);
+        if (collision.gameObject.GetComponent<PlayerChangeWepon>() != null)
+        {
+            collision.gameObject.GetComponent<PlayerChangeWepon>().ChangeWepon(_itemData);
+            Inventory.Instance.AddItem(_itemData);
+            Destroy(gameObject);
+        }
     }
 }

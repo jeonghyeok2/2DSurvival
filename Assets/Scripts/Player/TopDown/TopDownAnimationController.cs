@@ -24,13 +24,16 @@ public class TopDownAnimationController : TopDownAnimation
 
     private void Attacking(StatusData statusData)
     {
-        if (_playerChangeWepon.SetItemData().Name == "Bow")
-        {
-            animator.SetTrigger(Bow);
-        }
-        else
-        {
-            animator.SetTrigger(Sword);
+        if (_playerChangeWepon.SetItemData() != null)
+        { 
+            if (_playerChangeWepon.SetItemData().Name == "Bow")
+            {
+                animator.SetTrigger(Bow);
+            }
+            else if (_playerChangeWepon.SetItemData().Name == "Sword")
+            {
+                animator.SetTrigger(Sword);
+            }
         }
     }
 

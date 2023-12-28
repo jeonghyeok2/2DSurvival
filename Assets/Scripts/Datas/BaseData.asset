@@ -9,10 +9,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5556124406eaf6542b3ce82684e2763b, type: 3}
+  m_Script: {fileID: 0}
   m_Name: BaseData
   m_EditorClassIdentifier: Assembly-CSharp::RangedAttackData
   health: 20
-  speed: 5
-  attackPower: 10
-  delayTime: 0.4
+  speed: 10
+  attackPower: 2
+  delayTime: 0.3
+  size: 1
+  bulletNameTag: Arrow
+  duration: 5
+  spread: 4
+  numberofProjectilesPerShot: 3
+  multipleProjectilesAngel: 10
+  projectileColor: {r: 1, g: 1, b: 1, a: 1}

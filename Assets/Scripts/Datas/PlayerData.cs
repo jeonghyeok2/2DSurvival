@@ -16,6 +16,7 @@ public class StatusData : ScriptableObject
 public class RangedAttackData : StatusData
 {
     [Header("Ranged Attack Data")]
+    public float size;
     public string bulletNameTag;
     public float duration; //지속시간
     public float spread;

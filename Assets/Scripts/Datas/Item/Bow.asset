@@ -15,3 +15,4 @@ MonoBehaviour:
   Type: 1
   Name: Bow
   WeponImage: {fileID: 21300000, guid: ce3a1e73e89541cd9da727c64c8b7541, type: 3}
+  WeponSlotImage: {fileID: 21300000, guid: 790e64328a5148b69b19323568afe359, type: 3}
