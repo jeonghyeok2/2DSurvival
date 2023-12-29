@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ItemData">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAEAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Datas\ItemData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatusData">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAACAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Datas\PlayerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RangedAttackData">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAgIgAAAAAAAAAAAAAAACAAABEAAA=</HashCode>
+      <FileName>Assets\Scripts\Datas\PlayerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventory">
+    <Position X="15.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAgAAAAIAgAAAAAAAwAAABAgAAEA=</HashCode>
+      <FileName>Assets\Scripts\Inventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DropItem">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Item\DropItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterStats">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\CharacterStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterStatsHandler">
+    <Position X="9.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEg=</HashCode>
+      <FileName>Assets\Scripts\Player\CharacterStatsHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerAimRotation">
+    <Position X="5.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACCAAIQAAAQAAAAAAAAAAAAAAAAAAEEAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerAimRotation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerChangeWepon">
+    <Position X="7.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACACgAACAAAAQAAAAAAAAAAIAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerChangeWepon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerInputController" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAACAAAAABAAAAAAAAAAAAAAAAKAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerInputController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovement">
+    <Position X="3.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAqAAAAAAgAAAAIAAAAAAAAAAAAAAgEAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TopDownAnimation">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Player\TopDown\TopDownAnimation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TopDownAnimationController">
+    <Position X="3.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAKAAAAQAAAAAAAAAAAIAAAAAAAAABAABAEA=</HashCode>
+      <FileName>Assets\Scripts\Player\TopDown\TopDownAnimationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TopDownCharacterController" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAAAAggADAAABiAACAAACAAAAAAAAAAAAAAAUA=</HashCode>
+      <FileName>Assets\Scripts\Player\TopDown\TopDownCharacterController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TopDownShooting">
+    <Position X="11.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABAAAAQAAACAEAAAACAABAAAABEAAAMA=</HashCode>
+      <FileName>Assets\Scripts\Player\TopDown\TopDownShooting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectileManager" Collapsed="true">
+    <Position X="13.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAABAAAQEAAAACAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\ProjectileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RangedAttackController" Collapsed="true">
+    <Position X="13.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgAAAAAAAAAAAAAAAAAUAADAAAAIIZBCAAAFg=</HashCode>
+      <FileName>Assets\Scripts\RangedAttackController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slot">
+    <Position X="15.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAQAgAAgAAAAgA=</HashCode>
+      <FileName>Assets\Slot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemSlot">
+    <Position X="17.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Inventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ItemType" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Datas\ItemData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

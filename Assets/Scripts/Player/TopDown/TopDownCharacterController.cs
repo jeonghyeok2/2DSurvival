@@ -39,7 +39,7 @@ public class TopDownCharacterController : MonoBehaviour
 
     private void HandleAttackDelay()
     {
-        float delay = CharacterStatsHandler.currentStates.status.delayTime;
+        float delay = CharacterStatsHandler.AttackDelayTime();
         if (_timeSinceLastAttack <= delay) //딜레이 시간보다 작으면 발사 금지
         {
             _timeSinceLastAttack += Time.deltaTime;

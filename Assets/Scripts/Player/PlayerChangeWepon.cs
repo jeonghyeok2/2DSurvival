@@ -40,7 +40,6 @@ public class PlayerChangeWepon : MonoBehaviour
     }
     public void SelectSlotWepon(float index)
     {
-        Debug.Log("아이템 선택" + index);
         ChangeWepon(Inventory.Instance.GetItemData((int)index - 1));
     }
 }

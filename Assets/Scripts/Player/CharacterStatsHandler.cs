@@ -8,12 +8,14 @@ public class CharacterStatsHandler : MonoBehaviour
 {
     [SerializeField]
     private CharacterStats _characterStats;
+    private PlayerChangeWepon _playerChangeWepon;
     public CharacterStats currentStates { get; private set; }
-    public List<CharacterStats> statsModifiers = new List<CharacterStats>();
+   
 
     private void Awake()
     {
         UpdateCharacterStats();
+        _playerChangeWepon = GetComponent<PlayerChangeWepon>();
     }
     private void UpdateCharacterStats()
     {
@@ -27,6 +29,21 @@ public class CharacterStatsHandler : MonoBehaviour
 
         currentStates.maxHealth = _characterStats.maxHealth;
         currentStates.speed = _characterStats.speed;
+    }
+    public float AttackDelayTime()
+    {
+        if (_playerChangeWepon.SetItemData() != null)
+        {
+            if (_playerChangeWepon.SetItemData().Type == ItemType.MeleeAttack)
+            {
+                return currentStates.status.delayTime + 1;
+            }
+            else
+            {
+                return currentStates.status.delayTime;
+            }
+        }
+        return 0;
     }
 }
 
